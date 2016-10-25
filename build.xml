@@ -111,9 +111,10 @@
         </copy>
     </target>
 
+    <!-- PART 4: Running evaluation automated tests-->
     <target name="execute.evaluation" depends="compile">
-        <echo message="Executing exercises of assignment 1 in home folder"/>
-        <java classname="Assignment1" classpath="${build.dir}">
+        <echo message="Running evaluation automated tests"/>
+        <java classname="EvaluationClass" classpath="${build.dir}">
             <classpath>
                 <fileset dir="${lib.dir}">
                     <include name="**/*.jar"/>
