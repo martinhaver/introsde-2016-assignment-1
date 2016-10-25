@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<people>
+    <person id="001">
+        <firstname>Peter</firstname>
+        <lastname>Durajka</lastname>
+        <birthdate>1900-10-21T00:00:00.000+00:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>67</weight>
+            <height>1.99</height>
+            <bmi>17.43</bmi>
+        </healthprofile>
+</person>
