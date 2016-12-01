@@ -1,5 +1,5 @@
-import controller.HealthProfileReader;
-import controller.HealthProfileWriter;
+import utils.HealthProfileReader;
+import utils.HealthProfileWriter;
 import dao.PeopleList;
 import model.HealthProfile;
 import model.Person;
@@ -38,7 +38,7 @@ public class EvaluationClass {
         System.out.println();
         System.out.println("------------------------------------------");
         System.out.println("2. Running instruction 3 based on Lab 3 with id = 5");
-        String personID = "0005";
+        String personID = "05";
         HealthProfile hp = reader.getHealthProfileByPersonId(personID);
         System.out.println(hp.toString());
 
